@@ -32,15 +32,10 @@ function prependKitten(name) {
   return (newnewkittens)
 }
 
-function removeLastKitten() {
-  
+function removeLastKitten() { 
+  var rlkitten = kittens.slic(0, kittens.length - 1)
+  return (rlkitten)
 }
-
-
-
-
-
-
 
 
 
